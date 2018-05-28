@@ -33,7 +33,8 @@
                     "RPMSpec"
                 ],
                 "extensions": [
-                    ".spec"
+                    ".spec",
+                    ".spec.template"
                 ],
                 "configuration": "./rpm-spec.configuration.json"
             }
