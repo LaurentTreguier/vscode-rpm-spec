@@ -54,7 +54,7 @@
     ],
     "repository": {
         "licenses": {
-            "comment": "based on openSuSE Packaging guidelines, see also https://fedoraproject.org/wiki/Licensing:Main?rd=Licensing#SoftwareLicenses",
+            "comment": "based on openSUSE Packaging guidelines, see also https://fedoraproject.org/wiki/Licensing:Main?rd=Licensing#SoftwareLicenses",
             "patterns": [
                 {
                     "match": "(?:AFL-2.1|AGPL-3.0|AGPL-3.0\\+|Apache-1.1|Apache-2.0)",
@@ -775,7 +775,7 @@
                 },
                 {
                     "match": "^(?:\\* )?([a-zA-Z]{3} [a-zA-Z]{3}[ ]+\\d+ \\d+:\\d+:\\d+ [A-Z]+ \\d{4}) - (.*) (<.*@.*>) ([#_a-zA-Z0-9.-]+)$",
-                    "comment": "SuSE Open Build Service .changes files",
+                    "comment": "Open Build Service .changes files",
                     "captures": {
                         "1": {
                             "name": "constant.changelogs"
@@ -841,7 +841,7 @@
                 },
                 {
                     "match": "^(?:\\* )?([a-zA-Z]{3} [a-zA-Z]+[ ]+\\d+ \\d{4}) (.+@.+)$",
-                    "comment": "SuSE Old Style changelogs",
+                    "comment": "SUSE Old Style changelogs",
                     "captures": {
                         "1": {
                             "name": "constant.changelogs"
